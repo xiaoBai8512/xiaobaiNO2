@@ -1,0 +1,94 @@
+#header-top-container{
+    width:1200px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+#header-top{
+    min-width:1200px;
+    height: 40px;
+    background-color:#f8f8f8;
+    boder-bottom:1px #ebebeb soild;
+
+}
+
+#header-top-home{
+    float: left;
+}
+
+#header-top a{
+    line-height: 40px;
+    color:#333333;
+}
+
+#header-top .header-top-login{
+    color:red;
+}
+
+#header-top-menu{
+    float:right;
+
+}
+#header-top-menu li{
+    padding-left:22px;
+}
+
+/*加一个伪类，清楚浮动，不影响下面的内容*/
+#header-top-container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#header-top-menu li {
+    float: left;
+}
+
+#header-search-container{
+    min-width: 1200px;
+    background-color: #fff;
+}
+
+#search-container{
+    width:1200px;
+    margin: 0 auto;
+
+}
+
+#header-search-logo{
+    float: left;
+}
+
+#header-search-code{
+    float: right;
+}
+
+#header-search-content{
+    float:left;
+    width:434px;
+    height:44px;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+#header-search-content > input:first-child{
+    float: left;
+    width:85%;
+    height:44px;
+    border:2px #fb3434 solid;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+    outline: none;
+    padding:0 15px;
+}
+
+#header-search-content > input:last-child{
+    float: left;
+    width:15%;
+    height:44px;
+    background-color: #fb3434;
+    border-radius: 0 5px 0 5px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
