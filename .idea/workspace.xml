@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66f62d8-1c88-48c0-9b04-d6140416cbe7" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1BunHRVXXXXagaXXXXXXXXXXX-750-340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1GBFrSXXXXXXDXpXXXXXXXXXX-440-680.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1SO2FRVXXXXbjXVXXXXXXXXXX-1200-50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1adb0OFXXXXXzapXXXXXXXXXX-245-81.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1cfpfOVXXXXaAXXXXXXXXXXXX-700-66.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1czH5PXXXXXbNXpXXXXXXXXXX-136-122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/TB1jT3mRVXXXXXnXXXXXXXXXXXX-750-340.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/hot1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/hot2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/qr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/signIn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/signIn1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/header/standard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/section/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/section/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/unfiy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/index.js" afterPath="$PROJECT_DIR$/JavaScript/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="484">
               <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -59,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#init#0" expanded="false" />
               </folding>
@@ -71,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="352">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
                 <element signature="e#629#931#0" expanded="false" />
@@ -125,10 +98,10 @@
         <option value="$PROJECT_DIR$/JavaScript/xiangmu.js" />
         <option value="$PROJECT_DIR$/css/xiangmu.css" />
         <option value="$PROJECT_DIR$/JavaScript/default.js" />
-        <option value="$PROJECT_DIR$/JavaScript/index.js" />
         <option value="$PROJECT_DIR$/JavaScript/login.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/unfiy.css" />
+        <option value="$PROJECT_DIR$/JavaScript/index.js" />
       </list>
     </option>
   </component>
@@ -326,12 +299,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500727756732</updated>
       <workItem from="1500727760912" duration="687000" />
-      <workItem from="1500858516939" duration="24702000" />
+      <workItem from="1500858516939" duration="25180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25389000" />
+    <option name="totallyTimeSpent" value="25867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +316,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="1" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09895053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -422,9 +395,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+            <element signature="e#629#931#0" expanded="false" />
+            <element signature="e#959#1050#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="484">
           <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -434,22 +419,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#init#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-            <element signature="e#629#931#0" expanded="false" />
-            <element signature="e#959#1050#0" expanded="false" />
           </folding>
         </state>
       </provider>
