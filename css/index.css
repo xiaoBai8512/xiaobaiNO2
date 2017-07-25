@@ -1,0 +1,20 @@
+#main-course-container{
+    width:1200px;
+    margin:0 auto;
+}
+
+#main-course-container div{
+    float: left;
+}
+
+#main-course-container div:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#goods-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+

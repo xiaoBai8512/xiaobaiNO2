@@ -1,8 +1,8 @@
 /**
- * Created by 小白 on 2017/7/24.
+ * Created by Administrator on 2017/7/24.
  */
 
-//为了防止其他的插件与jQuery重名，可以通过noConflict找到jQuery对象重新更改表示jQuery的符号；
+//为了防止 其他的插件与jquery重名 可以通过noConflict找到jquery对象重新更改表示 jquery的符号
 var $ = jQuery.noConflict();
 (function () {
 
@@ -19,8 +19,8 @@ var $ = jQuery.noConflict();
         loginContainer.css({
             width:"400px",
             height:"300px",
-            "background-color":"orange",
-            border:"5px yellow solid",
+            "background-color":"#912020",
+            border: "5px #ffd42e solid",
             position: "absolute",
             top:"50%",
             left:"50%",
@@ -28,55 +28,56 @@ var $ = jQuery.noConflict();
             margin:"-150px -200px"
         });
 
-        closeButton.css({
-            float:"right",
-            color:"whtie",
-            padding:"5px"
-        });
-
-        var inputCss = {
+        var inputCSS = {
             padding:"20px 0",
             width:"300px",
             margin:"0 auto",
-            "text-align":"center"
+            "text-align": "center"
         };
-        usernameInput.css(inputCss);
-        passwordInput.css(inputCss);
-        loginButton.css(inputCss);
+        usernameInput.css(inputCSS);
+        passwordInput.css(inputCSS);
+        loginButton.css(inputCSS);
+
+        closeButton.css({
+            float:"right",
+            color:"white",
+            padding:"5px"
+        });
 
         closeButton.click(function () {
-            loginContainer.slideUp(500,"swing",function () {
+            loginContainer.slideUp(500,function () {
                 loginContainer.remove();
             });
         });
-
+        
         loginButton.click(function () {
-            $.post(PRODUCT_HOST+LOGIN, {status:"login",username:usernameInput.children().val(),password:passwordInput.children().val()}, function (data) {
+            $.post(PRODUCT_HOST+LOGIN,{status:"login",username:usernameInput.children().val(),password:passwordInput.children().val()},function (data) {
                     console.log(data);
-                    if(data.code == 0){
+                    //登录成功
+                    if (data.code == 0){
+
                         loginContainer.slideUp(500,function () {
                             loginContainer.remove();
 
-                            //  执行外面传入的方法
+                        //  执行外面传入的 方法
                             success(data.data);
-
                         });
-                    }else{
+
+                    }else {
                         alert(data.message);
                     }
                 }
             );
         });
-
+        
         loginContainer.append(closeButton);
         loginContainer.append(usernameInput);
         loginContainer.append(passwordInput);
         loginContainer.append(loginButton);
-
+        
         $(document.body).append(loginContainer);
     };
 
 
     window.Login = Login;
-
 })();
