@@ -14,11 +14,8 @@
 
 
         this.item = $("<div class='good-box'></div>");
-        var name = $("<p class='good-name'>"+obj.goods_name
-            +"</p>");
-        var other = $("<p><img width='"+width+"px' src='"+obj.goods_thumb
-            +"' alt=''></p><h3>￥"+obj.price+"</h3><p>"+obj.goods_desc
-            +"</p>");
+        var name = $("<p class='good-name'>"+obj.goods_name+"</p>");
+        var other = $("<p><img width='"+width+"px' src='"+obj.goods_thumb+"' alt=''></p><h3>￥"+obj.price+"</h3><p>"+obj.goods_desc +"</p>");
 
         this.item.append(name);
         this.item.append(other);

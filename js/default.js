@@ -16,3 +16,4 @@ PRODUCT_TYPE = "api_cat.php";
 
 //通过商品分类获得商品列表
 GOODS = "api_goods.php";
+

@@ -16,7 +16,13 @@ function init() {
 
 
     new corouselView.Corouse("#left-course",[{imagePath:"resouse/image/header/hot1.jpg"},{imagePath:"resouse/image/header/hot2.jpg"}],200,400).putSuperView().createControlButton().startTimer(0.5*1000);
-    new corouselView.Corouse("#center-course",[{imagePath:"resouse/image/header/TB1BunHRVXXXXagaXXXXXXXXXXX-750-340.jpg"},{imagePath:"resouse/image/header/TB1jT3mRVXXXXXnXXXXXXXXXXXX-750-340.jpg"}],752,400).putSuperView().createControlButton().startTimer(1*1000);
+    new corouselView.Corouse("#center-course",[{imagePath:"resouse/image/header/TB1BunHRVXXXXagaXXXXXXXXXXX-750-340.jpg"},{imagePath:"resouse/image/header/TB1jT3mRVXXXXXnXXXXXXXXXXXX-750-340.jpg"}],752,400).putSuperView().createControlButton().startTimer(1*1000,function () {
+        var r = parseInt(Math.random()*256);
+        var g = parseInt(Math.random()*256);
+        var b = parseInt(Math.random()*256);
+        $("#main-course").css("background-color","rgb("+r+","+g+","+b+")");
+    });
+
     new corouselView.Corouse("#right-course",[{imagePath:"resouse/image/header/hot1.jpg"},{imagePath:"resouse/image/header/hot2.jpg"}],200,400).putSuperView().createControlButton().startTimer(0.6*1000);
 
     //url,parm
